@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syajaratun.id - Video</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Font Awesome-icon -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <style>
+        #video {
+            margin-top: 90px;
+        }
+
+        .play-btn {
+            width: 50px;
+            position: absolute;
+            top: 22%;
+            left: 45%;
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        .play-btn:hover {
+            opacity: 1;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 2rem;
+            box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.028), 0 0px 5.3px rgba(0, 0, 0, 0.04), 0 0px 10px rgba(0, 0, 0, 0.05);
+            height: auto;
+            text-align: center;
+            font-size: .9em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Start Navigasi Menu -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-coklat">
+        <div class="container-fluid">
+            <a href="index.html" style="text-decoration: none;"><img src="assets/img/logo.png" alt="">
+                <span>Syajaratun.id</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-nav"
+                aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="my-nav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#" style="color: white;">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                            Kategori
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="bedah-sejarah.html" style="color: white;">Pemikiran</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#" style="color: white;">Politik</a></li>
+                            <li><a class="dropdown-item" href="#" style="color: white;">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="#" style="color: white;">Tokoh</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html" style="color: white;">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="video.html" style="color: white;">Vidio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" style="color: white;">Tentang Kami</a>
+                    </li>
+                </ul>
+                <form class="searchbox">
+                    <button class="btn btn-search" id="tombol-cari"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigasi Menu -->
+
+    <!-- Start Video -->
+    <section id="video">
+        <div class="container">
+            <div class="section-title">
+                <h2>Video</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                        <img src="assets/img/vid-img/img_vid1.jpeg">
+                        <img src="assets/img/play2.png" class="play-btn" data-toggle="modal"
+                            data-target="#play-video-1">
+                        <div class="card-body">
+
+                            <p class="text-muted card-text">Di tengah ancaman dari militer Jepang, para pemuda berhasil
+                                menyelenggarakan rapat raksasa di lapangan Ikada (kini Monas) pada 19 September 1945.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                        <img src="assets/img/vid-img/img_vid2.jpeg">
+                        <img src="assets/img/play2.png" class="play-btn" data-toggle="modal"
+                            data-target="#play-video-2">
+                        <div class="card-body">
+
+                            <p class="text-muted card-text">Grafiti-grafiti kemerdekaan, 1945. Untuk meningkatkan
+                                semangat perjuangan, setelah proklamasi kemerdekaan Indonesia grafiti-grafiti pun
+                                dilukis di dinding-dinding kota dan kendaraan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                        <img src="assets/img/vid-img/img_vid3.jpeg">
+                        <img src="assets/img/play2.png" class="play-btn" data-toggle="modal"
+                            data-target="#play-video-3">
+                        <div class="card-body">
+
+                            <p class="text-muted card-text">Menyerahnya Jepang kepada Sekutu pada 15 Agustus 1945
+                                membuat Indonesia dalam keadaan vacuum of power.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                        <img src="assets/img/vid-img/img_vid4.jpeg">
+                        <img src="assets/img/play2.png" class="play-btn" data-toggle="modal"
+                            data-target="#play-video-4">
+                        <div class="card-body">
+
+                            <p class="text-muted card-text">Kehidupan di Batavia tahun 1941. Di balik kehidupan yang
+                                tampak tenang, ketidakpastian meningkat seiring bayang-bayang perang yang kian mendekat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0 transform-on-hover">
+                        <img src="assets/img/vid-img/img_vid5.jpeg">
+                        <img src="assets/img/play2.png" class="play-btn" data-toggle="modal"
+                            data-target="#play-video-5">
+                        <div class="card-body">
+
+                            <p class="text-muted card-text "> Sambutan Soekarno dalam kunjungan Perdana Menteri Jepang
+                                Hideki Tojo ke Pulau Jawa. Jakarta, 1943.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid6.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-6">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Pancasila diciptakan untuk mempersatukan bangsa Indonesia
+                                yang beragam, menjadi dasar dimana kita semua dapat berpijak di atasnya. Memperingati
+                                pidato Soekarno di sidang BPUPKI pada 1 Juni 1945, dimana gagasan Pancasila
+                                pertama kali dilontarkan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid7.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-7">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">21 Mei 1998, di tengah krisis ekonomi yang memicu kerusuhan
+                                dan gelombang demonstrasi, Presiden Soeharto menyatakan berhenti dari jabatannya setelah
+                                32 tahun berkuasa. Ia digantikan oleh wakilnya, B.J. Habibie. Era Reformasi
+                                dimulai.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid8.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-8">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Pasukan RPKAD berparade unjuk kekuatan berkeliling Jakarta
+                                setelah pengumuman pembubaran PKI. 12 Maret 1966, sehari setelah menerima Supersemar,
+                                Letjen Soeharto langsung menerbitkan Keputusan Presiden tentang pembubaran
+                                PKI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid9.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-9">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Pengakuan Presiden Soeharto tentang Surat Perintah Sebelas
+                                Maret (Supersemar) dan pembubaran PKI, April 1994.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid10.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-10">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Pidato Presiden Soekarno tentang Surat Perintah Sebelas
+                                Maret (Supersemar), 17 Agustus 1966.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid11.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-11">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Soekarno dilantik sebagai Presiden Republik Indonesia
+                                Serikat di Siti Hinggil Keraton Yogyakarta, 17 Desember 1949.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid12.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-12">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Warga Papua meminta merdeka dan menolak bergabung dengan
+                                Indonesia, tahun 1961.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid13.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-13">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Penangkapan terhadap penduduk Surabaya sekitar November
+                                1945. Kedatangan tentara Inggris pada 25 Oktober disambut dengan perlawanan oleh
+                                penduduk, hingga puncaknya pecah dalam pertempuran besar 10 November 1945. Resolusi
+                                Jihad yang dideklarasikan NU pada 22 Oktober turut meningkatkan militansi umat Islam
+                                Surabaya melawan penjajah kafir yang akan merebut kembali tanah air mereka.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid14.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-14">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Masyarakat antusias menyambut kembalinya pasukan RPKAD ke
+                                Jakarta pada Januari 1966 setelah bertugas memburu para anggota PKI di Jawa Tengah dan
+                                Jawa Timur. Sepanjang periode tahun 1960-an pamor TNI amat tinggi di masyarakat
+                                akibat banyaknya panggung untuk militer mulai dari operasi merebut Irian Barat,
+                                Konfrontasi dengan Malaysia sampai penumpasan PKI. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid15.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-15">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Demonstrasi menolak pembangunan Taman Mini Indonesia Indah,
+                                pada akhir tahun 1971. Proyek yang digagas Ibu Negara Siti Hartinah untuk membuat
+                                miniatur Indonesia itu mendapat kritikan luas karena dianggap menghamburkan uang
+                                negara.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid16.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-16">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Pidato Presiden Soekarno dalam peringatan Maulid Nabi
+                                Muhammad di Jakarta tahun 1963.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid17.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-17">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Soekarno membacakan pernyataan menanggapi janji pemerintah
+                                Jepang untuk melibatkan rakyat Indonesia dalam pemerintahan di Indonesia, Jakarta tahun
+                                1943.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid18.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-18">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">12 Oktober 2002, sekitar pukul 23.00 bom meledak di Paddy's
+                                Pub dan Sari Club, menewaskan 202 orang yang sebagian besar merupakan warga negara
+                                asing. Peristiwa yang kemudian dikenal sebagai Bom Bali I ini merupakan aksi
+                                terorisme dengan jumlah korban terbanyak di Indonesia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid19.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-19">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Suasana Museum Gajah di Jakarta tahun 1958.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid20.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-20">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Soekarno berorasi mempromosikan PUTERA, organisasi yang
+                                dibuat Jepang untuk meraih dukungan rakyat, Jakarta tahun 1943.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid21.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-21">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Pejabat presiden Soeharto keluar dari kantornya untuk
+                                menemui massa yang berdemonstrasi tentang kondisi ekonomi negara, Jakarta tahun 1967.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid22.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-22">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Mahasiswa berparade mengritik perilaku korupsi dan gaya
+                                hidup pejabat negara, Jakarta tahun 1970.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid25.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-23">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Wajah Kalah Soekarno Di penghujung masa kekuasaannya,
+                                Presiden Soekarno membagi-bagikan dasi miliknya kepada wartawan Istana pada Januari
+                                1967. Ia tampil di depan kamera tanpa peci dan pakaian kebesarannya, seolah
+                                menggambarkan
+                                kekuasaannya yang sudah terlucuti.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid26.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-24">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Prosesi pelepasan dan pemakaman jenazah para jenderal
+                                korban Gerakan 30 September di Jakarta, 5 Oktober 1965. Menteri/Panglima Angkatan Darat
+                                Letjen Ahmad Yani beserta para jenderal yang menjadi deputi dan asistennya di
+                                Staf Umum Angkatan Darat diculik dan dibunuh pada dini hari 1 Oktober 1965.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid27.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-25">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">29 September 1955, pemungutan suara Pemilu Legislatif
+                                dilangsungkan. Seluruh rakyat menyambut antusias Pemilu pertama dalam sejarah Indonesia
+                                ini, dengan tingkat partisipasi pemilih mencapai 91,5%.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid28.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-26">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> 28 September 1950, Indonesia resmi bergabung dengan
+                                Perserikatan Bangsa-Bangsa sebagai anggota ke-60.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid29.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-27">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Alasan Presiden Soeharto menahan terduga anggota PKI walau
+                                tanpa bukti kuat, Perancis tahun 1972.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid30.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-28">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Demonstrasi kaum perempuan antikomunis di Jakarta tahun
+                                1966. Pasca G30S demonstrasi anti-PKI marak terjadi, dengan dukungan dari Angkatan Darat
+                                yang merupakan seteru politik PKI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid6.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-29">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Sambutan Soekarno dalam kunjungan Perdana Menteri Jepang
+                                Hideki Tojo ke Pulau Jawa. Jakarta, 1943.⠀ ⠀
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid7.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-30">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Demonstrasi anti PKI pasca meletusnya G30S di Jakarta,
+                                Oktober 1965.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid8.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-31">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Suasana Jakarta pada 4 Oktober 1965. Situasi masih mencekam
+                                pasca meletusnya G30S, pasukan TNI dan alat beratnya bersiaga di berbagai sudut kota.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid9.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-32">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Penerbangan perdana pesawat N-250 di Bandung, 10 Agustus
+                                1995. Produksi pesawat ini kemudian terhenti saat Indonesia dihantam krisis ekonomi
+                                dahsyat pada tahun 1998. Upaya menghidupkan kembali proyek ini pasca krisis tidak
+                                pernah terwujud.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid10.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-33">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Tanggal 8 Juli 1976 waktu Florida, Satelit Palapa
+                                diluncurkan. Satelit telekomunikasi yang akan menyatukan Nusantara, seperti Sumpah
+                                Palapa Gajah Mada yang menjadi inspirasi namanya.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid12.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-34">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">20 Oktober 1999. Masyarakat menyaksikan siaran langsung
+                                voting pemilihan presiden di Senayan. Gus Dur terpilih sebagai Presiden Republik
+                                Indonesia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid13.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-35">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Mahasiswa berdemonstrasi menyerukan Tri Tuntutan Rakyat
+                                (Tritura). Jakarta, 12 Januari 1966. Gelombang Tritura yang terus bergulir memaksa
+                                Presiden Soekarno mengeluarkan Supersemar yang akhirnya menggulung rezim Orde Lama.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid14.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-36">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Mahasiswa menuntut Presiden Soekarno diadili karena diduga
+                                terlibat Gestapu. Jakarta, 1966.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid15.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-37">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Wakil Presiden Mohammad Hatta dan Menlu Ali Sastroamidjojo
+                                usai menghadiri Konferensi Meja Bundar. Belanda, 1949.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid17.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-38">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Pembukaan Konferensi Asia-Afrika. Bandung, 18 April 1955.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid18.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-39">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Gubernur Jenderal Tjarda van Starkenborgh menyaksikan
+                                pertunjukan Angkatan Udara Hindia Belanda. Batavia, 1939.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid19.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-40">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Demonstrasi menolak kedatangan Presiden Soeharto ke Jerman
+                                Barat karena pelanggaran HAM berat. Bonn, 1970.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid20.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-41">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Peringatan hari lahir (harlah) Nahdlatul Ulama ke-40.
+                                Jakarta, Februari 1966.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid21.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-42">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">12 Maret 1967, Jenderal Soeharto dilantik sebagai pejabat
+                                Presiden Republik Indonesia. Awal mula rezim Orde Baru.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid22.jpeg ">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-43">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text "> Pembacaan surat penyerahan kekuasaan dari Presiden
+                                Soekarno kepada Jenderal Soeharto, Februari 1967.⠀</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid23.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-44">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Lagu Indonesia Raya dalam film propaganda Jepang, 1944.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid24.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-45">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Wakil Perdana Menteri Soebandrio menyaksikan aksi penerjun
+                                payung perempuan pertama Indonesia. Bandung, 1964.⠀</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid25.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-46">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">MPRS mencabut mandat Presiden Soekarno dan menetapkan
+                                Jenderal Soeharto sebagai pejabat presiden. Maret, 1967.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid26.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-47">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Istri Jenderal Ahmad Yani menerima kompensasi atas kematian
+                                suaminya dalam kudeta G-30 S. Jakarta, 28 Oktober 1965.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid27.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-48">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Menyerahnya jepang terhadap sekutu yang mengakibatkan
+                                usainya perang dunia ke-II.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid28.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-49">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Kembalinya Presiden Soekarno ke Jakarta setelah dilantik
+                                sebagai Presiden RIS di Yogyakarta, 1949.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid29.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-50">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Naskah Proklamasi bangsa Indonesia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="card border-0 transform-on-hover ">
+                        <img src="assets/img/vid-img/img_vid30.jpeg">
+                        <img src="assets/img/play2.png " class="play-btn" data-toggle="modal"
+                            data-target="#play-video-51">
+                        <div class="card-body ">
+
+                            <p class="text-muted card-text ">Kerusuhan yang terjadi saat lengsernya Gusdur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </section>
+    <!-- End About -->
+
+    <!-- modal video -->
+    <div class="modal fade " id="play-video-1" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid1.mp4" type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-2" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid2.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-3" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid3.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-4" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid4.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-5" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid5.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-6" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid6.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-7" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid7.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-8" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid8.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-9" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid9.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-10" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid10.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-11" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid11.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-12" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid12.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-13" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid13.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-14" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid14.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-15" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid15.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-16" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid16.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-17" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid17.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-18" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid18.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-19" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid19.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-20" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid20.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-21" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid21.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-22" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid22.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-23" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid23.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-24" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid24.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-25" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid25.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-26" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid26.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-27" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid27.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-28" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid28.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-29" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid29.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-30" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid30.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-31" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid31.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-32" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid32.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-33" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid33.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-34" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid34.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-35" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid35.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-36" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid36.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-37" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid37.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-38" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid38.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-39" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid39.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-40" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid40.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-41" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid41.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-42" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid42.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-43" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid43.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-44" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid44.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-45" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid45.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-46" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid46.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-47" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid47.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-48" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid48.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-49" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid49.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-50" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid50.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="play-video-51" style="margin-top: 5%; ">
+        <div class="modal-dialog " role="document ">
+            <div class="modal-content ">
+                <div class="modal-body ">
+                    <video width="100% " controls>
+                        <source src="assets/video/vid51.mp4 " type="video/mp4 " />
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end modal video -->
+    <!-- End About -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <div class="brand">
+                            <img src="assets/img/logo.png" alt="logo">
+                            <h1>Syajaratun.id</h1>
+                        </div>
+                        <p class="tentang">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sed voluptatibus
+                            officiis, perferendis veniam quisquam natus deserunt placeat suscipit, ab doloribus dolorem
+                            magni ex rem consequuntur sapiente, temporibus quidem dolores!</p>
+                        <ul class="sosmed">
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h2>kontak</h2>
+                        <p class="alamat">Jl. Cibaligo No. 19 Rt 04 Rw 16, Keluraham Cibeureum, Cimahi Selatan, Cimahi
+                            40535</p>
+                        <ul class="kontak">
+                            <li><i class="fas fa-phone"></i> Telp : 089656262027</li>
+                            <li><i class="fas fa-envelope"></i> Telp : chyntianur21@if.unjani.sc.id</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h2>Navigasi</h2>
+                        <ul class="footer-nav">
+                            <li><a href="">Home</a></li>
+                            <li>Kategori
+                                <ul class="drop-nav">
+                                    <li><a href="">Bedah Sejarah</a></li>
+                                    <li><a href="">Resensi</a></li>
+                                    <li><a href="">Tokoh</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Video</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="copyright_text text-center">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-angle-up"></span>
+        </button>
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("movetop").style.display = "block";
+                } else {
+                    document.getElementById("movetop").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <!-- /move top -->
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Script JavaScript -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+</html>
