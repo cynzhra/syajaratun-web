@@ -1,16 +1,16 @@
 # 🌿 Syajaratun
 
-**Syajaratun** adalah website sederhana yang dibuat sebagai tugas mata kuliah **Pemrograman Web**.  
-Website ini menyajikan informasi seputar sejarah Indonesia dengan tampilan modern, responsif, dan mudah dipahami.  
+**Syajaratun** adalah website sederhana yang dibuat sebagai tugas mata kuliah **Pemrograman Web**. Website ini menyajikan informasi seputar sejarah Indonesia dengan tampilan modern, responsif, dan mudah dipahami.  
 
 ---
 
 ## 👥 Tim Pengembang
 - **Leader**: Cynthia Nur Azzahra
-- Anggota: - Dicky Hadiansyah Wardana
-           - Tri Handayani Wulandari S
-           - Az-Zahra Asri Romadhoni
-           - Sultan Pernando Putra
+- Anggota:
+  - Dicky Hadiansyah Wardana
+  - Tri Handayani Wulandari S
+  - Az-Zahra Asri Romadhoni
+  - Sultan Pernando Putra
 
 ---
 
